@@ -1,4 +1,10 @@
 
+
+@font-face {
+  font-family: SutonnyMJ Regular;
+  src: url(SutonnyMJ\ Regular.ttf);
+}
+body
 .succecfull-students-thumbanail div img{
     width: 100%;
     height: auto;
