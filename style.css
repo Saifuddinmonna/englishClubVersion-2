@@ -1,0 +1,14 @@
+
+.succecfull-students-thumbanail div img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.courses-cards div img{
+     width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.student-feedback .light-golden{
+    color: #E5D68A;
+}
