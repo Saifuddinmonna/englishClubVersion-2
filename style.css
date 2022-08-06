@@ -18,3 +18,7 @@ body
 .student-feedback .light-golden{
     color: #E5D68A;
 }
+pre{
+    overflow:auto ;
+    
+}
