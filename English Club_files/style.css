@@ -16,7 +16,7 @@ body .succecfull-students-thumbanail div img {
 	color: #e5d68a;
 }
 pre {
-	overflow:;
+	overflow: auto;
 }
 .img-resize {
 	min-width: 100px;
