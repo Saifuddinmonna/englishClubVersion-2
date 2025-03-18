@@ -7,23 +7,20 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Vocabulary from './pages/Vocabulary';
+// Import other components as needed
 
 function App() {
   return (
     <Router>
-      <div className="container mother-div">
-        <header className="row mb-5 container clearfix">
-          <Navbar />
-        </header>
-
-        <main className="row container d-flex justify-content-center align-items-center">
+      <div className="min-vh-100 d-flex flex-column">
+        <Navbar />
+        <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/vocabulary" element={<Vocabulary />} />
-            {/* Add more routes as we create more pages */}
+            {/* Add other routes as needed */}
           </Routes>
         </main>
-
         <Footer />
       </div>
     </Router>

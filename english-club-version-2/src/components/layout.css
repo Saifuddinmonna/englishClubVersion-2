@@ -1,0 +1,62 @@
+/* Layout styles for consistent width and padding */
+.navbar,
+.carousel,
+footer,
+.courses-section {
+  width: 94%;
+  margin: 1rem auto;
+  padding: 0 3%;
+  border-radius: 0.5rem;
+}
+
+/* Navbar specific adjustments */
+.navbar {
+  background-color: var(--bs-primary);
+}
+
+/* Carousel specific adjustments */
+.carousel {
+  overflow: hidden;
+}
+
+/* Footer specific adjustments */
+footer {
+  background-color: var(--bs-dark);
+}
+
+.footer-content {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+/* Courses section adjustments */
+.courses-section {
+  background-color: #fff;
+  padding: 2rem 3%;
+}
+
+.courses-section .courses-text {
+  margin-bottom: 2rem;
+}
+
+.courses-section .row {
+  margin: 0;
+  width: 100%;
+}
+
+.courses-section .container {
+  width: 100%;
+  padding: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar,
+  .carousel,
+  footer,
+  .courses-section {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0.5rem auto;
+  }
+} 

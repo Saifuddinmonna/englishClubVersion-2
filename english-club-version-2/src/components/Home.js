@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseCard from './CourseCard';
+import './layout.css';
 
 const courses = [
   {
@@ -133,7 +134,7 @@ function Home() {
       </div>
 
       {/* Courses Section */}
-      <section className="cources ps-4 justify-content-center mt-5" id="courses-section">
+      <section className="courses-section" id="courses-section">
         <div className="courses-text text-center">
           <h2>Discover Our Popular Courses</h2>
           <p className="fs-5">
@@ -141,22 +142,20 @@ function Home() {
           </p>
         </div>
 
-        <div className="container cources">
-          <div className="container row row-cols-lg-2 g-4">
-            {courses.map(course => (
-              <CourseCard
-                key={course.id}
-                image={course.image}
-                title={course.title}
-                description={course.description}
-                price={course.price}
-              />
-            ))}
-          </div>
+        <div className="row row-cols-lg-2 g-4">
+          {courses.map(course => (
+            <CourseCard
+              key={course.id}
+              image={course.image}
+              title={course.title}
+              description={course.description}
+              price={course.price}
+            />
+          ))}
         </div>
         
-        <div className="container-fluid my-5">
-          <button className="btn btn-primary fs-4 d-block m-auto">
+        <div className="text-center my-5">
+          <button className="btn btn-primary fs-4">
             View All
           </button>
         </div>

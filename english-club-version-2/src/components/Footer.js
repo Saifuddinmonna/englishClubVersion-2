@@ -1,9 +1,10 @@
 import React from 'react';
+import './layout.css';
 
 function Footer() {
   return (
-    <footer className="container rounded-4 bg-dark mt-5 py-5 text-center text-white">
-      <div className="container footer">
+    <footer className="bg-dark py-5 text-center text-white">
+      <div className="footer-content">
         <h2 className="pb-3">English Club</h2>
         <p className="pb">Gohailkandi, Jamtola,Bylane-1 ,Mymensingh Sadar, Mymensingh.</p>
         <p className="pb-3 fst-italic">Privacy Policy | Terms of use</p>
